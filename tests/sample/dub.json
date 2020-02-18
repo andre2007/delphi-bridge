@@ -1,0 +1,9 @@
+{
+	"name": "sample",
+	"targetType": "dynamicLibrary",
+	"dependencies": {
+		"delphi-bridge": {"path": "../../d"}
+	},
+	"importPaths": ["."],
+	"sourcePaths": ["."]
+}

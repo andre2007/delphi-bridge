@@ -1,0 +1,13 @@
+{
+	"name": "delphi-bridge",
+	"configurations": [
+	{
+		"name": "debug",
+		"targetType": "executable",
+		"excludeSourceFiles": ["source/test"]
+	}, {
+		"name": "unittest", "targetType": "executable", 
+		"mainSourceFile": "source/test/testapp.d"
+	}
+	]
+}
